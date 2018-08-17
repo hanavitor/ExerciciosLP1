@@ -10,6 +10,7 @@ class Pessoa{
         int idade;
         int telefone;
     public:
+        Pessoa();
         Pessoa(std::string n);
         Pessoa(std::string n, int idade, int telefone);
         void setNome(std::string n);

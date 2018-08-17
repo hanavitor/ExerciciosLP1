@@ -1,5 +1,11 @@
 #include "pessoa.h"
 
+Pessoa::Pessoa(){
+    nome = "";
+    idade = 0;
+    telefone = 0;
+}
+
 Pessoa::Pessoa(std::string n){
     nome = n;
 }
